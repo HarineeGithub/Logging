@@ -1,0 +1,519 @@
+2022-08-04 19:16:09.8054 Info Message Template Auto Format enabled
+2022-08-04 19:16:09.8234 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:16:09.8317 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:16:09.9205 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:16:09.9205 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:16:09.9205 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:16:09.9205 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:16:09.9436 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:16:09.9526 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:16:09.9800 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:16:09.9800 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:16:10.0028 Info Configuration initialized.
+2022-08-04 19:16:10.0196 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:17:30.9813 Info Message Template Auto Format enabled
+2022-08-04 19:17:30.9933 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:17:31.0000 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:17:31.0722 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:17:31.0722 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:17:31.0773 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:17:31.0773 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:17:31.0773 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:17:31.0982 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:17:31.1221 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:17:31.1280 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:17:31.1396 Info Configuration initialized.
+2022-08-04 19:17:31.1396 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:19:04.5523 Info Message Template Auto Format enabled
+2022-08-04 19:19:04.5523 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:19:04.5708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:19:04.6347 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:19:04.6347 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:19:04.6347 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:19:04.6347 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:19:04.6470 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:19:04.6668 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:19:04.6919 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:19:04.6919 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:19:04.7121 Info Configuration initialized.
+2022-08-04 19:19:04.7262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:20:55.8202 Info Message Template Auto Format enabled
+2022-08-04 19:20:55.8328 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:20:55.8402 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:20:55.9056 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:20:55.9056 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:20:55.9056 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:20:55.9056 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:20:55.9235 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:20:55.9306 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:20:55.9536 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:20:55.9536 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:20:55.9720 Info Configuration initialized.
+2022-08-04 19:20:55.9881 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:30:04.1101 Info Message Template Auto Format enabled
+2022-08-04 19:30:04.1101 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:30:04.1313 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:30:04.2020 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:30:04.2058 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:30:04.2058 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:30:04.2058 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:30:04.2221 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:30:04.2221 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:30:04.2527 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:30:04.2527 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:30:04.2687 Info Configuration initialized.
+2022-08-04 19:30:04.2834 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:35:48.0708 Info Message Template Auto Format enabled
+2022-08-04 19:35:48.0822 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:35:48.0822 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:35:48.1609 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:35:48.1609 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:35:48.1609 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:35:48.1609 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:35:48.1841 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:35:48.1932 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:35:48.2206 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:35:48.2206 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:35:48.2415 Info Configuration initialized.
+2022-08-04 19:35:48.2577 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:52:25.5353 Info Message Template Auto Format enabled
+2022-08-04 19:52:25.5459 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:52:25.5459 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:52:25.6143 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:52:25.6143 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:52:25.6143 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:52:25.6211 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:52:25.6211 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:52:25.6397 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:52:25.6635 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:52:25.6719 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:52:25.6719 Info Configuration initialized.
+2022-08-04 19:52:25.7035 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:52:55.7112 Info Message Template Auto Format enabled
+2022-08-04 19:52:55.7255 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:52:55.7341 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:52:55.8282 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:52:55.8282 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:52:55.8282 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:52:55.8282 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:52:55.8589 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:52:55.8589 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:52:55.9011 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:52:55.9092 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:52:55.9236 Info Configuration initialized.
+2022-08-04 19:52:55.9417 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:55:02.4387 Info Message Template Auto Format enabled
+2022-08-04 19:55:02.4503 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:55:02.4580 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:55:02.5287 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:55:02.5352 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:55:02.5352 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:55:02.5352 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:55:02.5531 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:55:02.5531 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:55:02.5843 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:55:02.5843 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:55:02.6028 Info Configuration initialized.
+2022-08-04 19:55:02.6192 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:56:53.8855 Info Message Template Auto Format enabled
+2022-08-04 19:56:53.8855 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:56:53.9038 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:56:53.9663 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:56:53.9663 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:56:53.9663 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:56:53.9756 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:56:53.9756 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:56:53.9955 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:56:54.0199 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:56:54.0288 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:56:54.0414 Info Configuration initialized.
+2022-08-04 19:56:54.0683 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:58:38.5805 Info Message Template Auto Format enabled
+2022-08-04 19:58:38.5922 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:58:38.5922 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:58:38.6770 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:58:38.6770 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:58:38.6845 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:58:38.6845 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:58:38.6990 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:58:38.6990 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:58:38.7322 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:58:38.7322 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:58:38.7486 Info Configuration initialized.
+2022-08-04 19:58:38.7639 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 19:59:32.6999 Info Message Template Auto Format enabled
+2022-08-04 19:59:32.7114 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 19:59:32.7200 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 19:59:32.7885 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:59:32.7885 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:59:32.7955 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 19:59:32.7955 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 19:59:32.7955 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 19:59:32.8153 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 19:59:32.8386 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 19:59:32.8454 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 19:59:32.8454 Info Configuration initialized.
+2022-08-04 19:59:32.8691 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 20:02:40.3277 Info Message Template Auto Format enabled
+2022-08-04 20:02:40.3398 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 20:02:40.3398 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 20:02:40.4159 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 20:02:40.4159 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 20:02:40.4159 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 20:02:40.4159 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 20:02:40.4349 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 20:02:40.4438 Info Adding target ColoredConsoleTarget(Name=logconsole)
+2022-08-04 20:02:40.4680 Info Validating config: TargetNames=LogFile, ConfigItems=31, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 20:02:40.4759 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2022-08-04 20:02:40.4759 Info Configuration initialized.
+2022-08-04 20:02:40.5004 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 20:04:17.6473 Info Message Template Auto Format enabled
+2022-08-04 20:04:17.6619 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 20:04:17.6695 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 20:04:17.7367 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 20:04:17.7367 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 20:04:17.7367 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 20:04:17.7367 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 20:04:17.7450 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 20:04:17.7833 Info Validating config: TargetNames=LogFile, ConfigItems=22, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 20:04:17.7979 Info Configuration initialized.
+2022-08-04 20:04:17.8130 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 21:06:33.2611 Info Message Template Auto Format enabled
+2022-08-04 21:06:33.2725 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 21:06:33.2725 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 21:06:33.3508 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 21:06:33.3508 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 21:06:33.3583 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 21:06:33.3583 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 21:06:33.3744 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 21:06:33.4030 Info Validating config: TargetNames=LogFile, ConfigItems=22, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 21:06:33.4273 Info Configuration initialized.
+2022-08-04 21:06:33.4508 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 21:07:13.8595 Info Message Template Auto Format enabled
+2022-08-04 21:07:13.8744 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 21:07:13.8814 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 21:07:13.9499 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 21:07:13.9536 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 21:07:13.9536 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 21:07:13.9536 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 21:07:13.9736 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 21:07:13.9970 Info Validating config: TargetNames=LogFile, ConfigItems=22, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 21:07:14.0096 Info Configuration initialized.
+2022-08-04 21:07:14.0241 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
+2022-08-04 21:13:37.5289 Info Message Template Auto Format enabled
+2022-08-04 21:13:37.5407 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-04 21:13:37.5407 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2022-08-04 21:13:37.6300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 21:13:37.6300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 21:13:37.6300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error parsing layout aspnet-request
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'aspnetrequest'. Extension NLog.Web.AspNetCore not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-08-04 21:13:37.6300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: ${aspnet-request} cannot assign unknown property 'item='
+2022-08-04 21:13:37.6497 Info Adding target FileTarget(Name=LogFile)
+2022-08-04 21:13:37.6764 Info Validating config: TargetNames=LogFile, ConfigItems=22, FilePath=C:\Users\yhws\Source\repos\Logging\Logging.API\bin\Debug\netcoreapp3.1\NLog.config
+2022-08-04 21:13:37.6914 Info Configuration initialized.
+2022-08-04 21:13:37.7075 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.0.1.1159. Product version: 5.0.1+a3718b8417284a90b0f73b2cbba47bc4067f6a3a. GlobalAssemblyCache: False
